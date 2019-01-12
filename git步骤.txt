@@ -1,1 +1,14 @@
 git init ≥ı ºªØ
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git add .
+
+git commit -m "init demo"
+
+git remote add origin https://dddd
+
+git push origin master
+
+
