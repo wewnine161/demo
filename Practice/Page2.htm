@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #p1
+        {
+            color: Blue;
+            font-weight: bold;
+            font-family: 黑体,华文行楷,微软雅黑;
+            font-size: 2em;
+        }
+        
+        h3
+        {
+            text-align: center;
+        }
+        .p2
+        {
+            text-decoration: underline;
+            text-indent: 20px;
+            line-height: 30px;
+        }
+        
+        .box
+        {
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            border: 1px solid gray;
+            margin: 20px 10px;
+        }
+        
+        #block1
+        {
+            float: left;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+        }
+        
+        #block2
+        {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            top: 200px;
+            left: 300px;
+            border: 2px solid red;
+        }
+        
+        .wrapper {
+            width: 200px;
+            height: 200px;
+            border: 1px dotted red;
+            margin: 100px;
+        }
+
+        .wrapper1 div {
+            width: 200px;
+            height: 200px;
+            background: orange;
+            transform: rotate(30deg);
+        }
+
+        .wrapper2 div {
+            width: 300px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            color: #fff;
+            background: orange;
+            transform: skew(30deg);
+        }
+
+        .wrapper3 div {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            background: orange;
+            text-align: center;
+            color: #fff;
+        }
+
+            .wrapper3 div:hover {
+                transform: scale(0.5,0.5);
+            }
+
+        .wrapper4 div {
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            background: orange;
+            color: #fff;
+            transform: translate(50px,100px);
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">
+        上海市浦东软件园职业技能培训中心
+    </p>
+    <h3>
+        测试</h3>
+    <p class="p2">
+        上海浦东郭守敬路498号浦东软件园1号楼</p>
+    <div class="box">
+        Box1</div>
+    <div class="box">
+        Box2</div>
+    <div id="block1">
+        浮动定位
+    </div>
+    <div id="block2">
+        绝对定位
+    </div>
+    
+    <hr />
+    <hr />
+
+    <div class="wrapper wrapper1">
+        <div>
+            <span>旋转盒子30度</span></div>
+    </div>
+    <div class="wrapper wrapper2">
+        <div>
+            <span>扭曲盒子30度</span></div>
+    </div>
+    <div class="wrapper wrapper3">
+        <div>
+            鼠标经过时盒子缩小(比例为x:0.5,y:0.5)</div>
+    </div>
+    <div class="wrapper wrapper4">
+        <div>
+            下移盒子(位移x方向50px,y方向100px)</div>
+    </div>
+</body>
+</html>
