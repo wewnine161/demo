@@ -12,3 +12,32 @@ git remote add origin https://dddd
 git push origin master
 
 
+
+
+
+解决冲突：
+假设本地master和远程master有冲突
+
+1: git checkout dev
+
+2: git stash
+
+3: git checkout master
+
+4: git pull origin/master
+
+5: git checkout dev
+
+6: git merge master
+
+7: git stash pop
+
+8: 查看冲突文件并解决。
+
+9: git add .
+
+10: git commit -m "xxx"
+
+11: git push origin/dev
+
+
