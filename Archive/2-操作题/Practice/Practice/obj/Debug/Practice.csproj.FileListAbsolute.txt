@@ -1,0 +1,5 @@
+C:\Users\JimmyGates\Desktop\前端开发\复习题\Practice\Practice\bin\Practice.dll
+C:\Users\JimmyGates\Desktop\前端开发\复习题\Practice\Practice\bin\Practice.pdb
+C:\Users\JimmyGates\Desktop\前端开发\复习题\Practice\Practice\obj\Debug\Practice.dll
+C:\Users\JimmyGates\Desktop\前端开发\复习题\Practice\Practice\obj\Debug\Practice.pdb
+C:\Users\JimmyGates\Desktop\前端开发\复习题\Practice\Practice\obj\Debug\Practice.csprojResolveAssemblyReference.cache
